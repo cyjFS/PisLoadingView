@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "EggLoadingView.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    EggLoadingView *eggLoadingView = [EggLoadingView viewFromXib];
+    eggLoadingView.center = self.view.center;
+    [self.view addSubview:eggLoadingView];
+    [eggLoadingView startAnimating];
 }
 
 - (void)didReceiveMemoryWarning {

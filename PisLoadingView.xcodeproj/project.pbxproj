@@ -14,6 +14,15 @@
 		BBDCA82B1B5CDBA2002D879B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBDCA82A1B5CDBA2002D879B /* Images.xcassets */; };
 		BBDCA82E1B5CDBA2002D879B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBDCA82C1B5CDBA2002D879B /* LaunchScreen.xib */; };
 		BBDCA83A1B5CDBA2002D879B /* PisLoadingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDCA8391B5CDBA2002D879B /* PisLoadingViewTests.m */; };
+		BBDCA8461B5CDBE2002D879B /* EggLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDCA8431B5CDBE2002D879B /* EggLoadingView.m */; };
+		BBDCA8471B5CDBE2002D879B /* EggLoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBDCA8441B5CDBE2002D879B /* EggLoadingView.xib */; };
+		BBF4C2221B5F661700273FDA /* image_egg_loading1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF4C21D1B5F661700273FDA /* image_egg_loading1@2x.png */; };
+		BBF4C2231B5F661700273FDA /* image_egg_loading2_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF4C21E1B5F661700273FDA /* image_egg_loading2_1@2x.png */; };
+		BBF4C2241B5F661700273FDA /* image_egg_loading3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF4C21F1B5F661700273FDA /* image_egg_loading3@2x.png */; };
+		BBF4C2251B5F661700273FDA /* image_egg_loading2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF4C2201B5F661700273FDA /* image_egg_loading2@2x.png */; };
+		BBF4C2261B5F661700273FDA /* image_egg_loading1_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF4C2211B5F661700273FDA /* image_egg_loading1_1@2x.png */; };
+		BBF4C2281B5F6B0200273FDA /* image_egg_loading_shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF4C2271B5F6B0200273FDA /* image_egg_loading_shadow@2x.png */; };
+		BBF4C22A1B5F8AD800273FDA /* Untitled.gif in Resources */ = {isa = PBXBuildFile; fileRef = BBF4C2291B5F8AD800273FDA /* Untitled.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,16 @@
 		BBDCA8331B5CDBA2002D879B /* PisLoadingViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PisLoadingViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBDCA8381B5CDBA2002D879B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBDCA8391B5CDBA2002D879B /* PisLoadingViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PisLoadingViewTests.m; sourceTree = "<group>"; };
+		BBDCA8431B5CDBE2002D879B /* EggLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EggLoadingView.m; sourceTree = "<group>"; };
+		BBDCA8441B5CDBE2002D879B /* EggLoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EggLoadingView.xib; sourceTree = "<group>"; };
+		BBDCA8451B5CDBE2002D879B /* EggLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EggLoadingView.h; sourceTree = "<group>"; };
+		BBF4C21D1B5F661700273FDA /* image_egg_loading1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_egg_loading1@2x.png"; sourceTree = "<group>"; };
+		BBF4C21E1B5F661700273FDA /* image_egg_loading2_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_egg_loading2_1@2x.png"; sourceTree = "<group>"; };
+		BBF4C21F1B5F661700273FDA /* image_egg_loading3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_egg_loading3@2x.png"; sourceTree = "<group>"; };
+		BBF4C2201B5F661700273FDA /* image_egg_loading2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_egg_loading2@2x.png"; sourceTree = "<group>"; };
+		BBF4C2211B5F661700273FDA /* image_egg_loading1_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_egg_loading1_1@2x.png"; sourceTree = "<group>"; };
+		BBF4C2271B5F6B0200273FDA /* image_egg_loading_shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_egg_loading_shadow@2x.png"; sourceTree = "<group>"; };
+		BBF4C2291B5F8AD800273FDA /* Untitled.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Untitled.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +104,13 @@
 				BBDCA8221B5CDBA2002D879B /* AppDelegate.m */,
 				BBDCA8241B5CDBA2002D879B /* ViewController.h */,
 				BBDCA8251B5CDBA2002D879B /* ViewController.m */,
+				BBDCA8451B5CDBE2002D879B /* EggLoadingView.h */,
+				BBDCA8431B5CDBE2002D879B /* EggLoadingView.m */,
+				BBDCA8441B5CDBE2002D879B /* EggLoadingView.xib */,
 				BBDCA8271B5CDBA2002D879B /* Main.storyboard */,
 				BBDCA82A1B5CDBA2002D879B /* Images.xcassets */,
 				BBDCA82C1B5CDBA2002D879B /* LaunchScreen.xib */,
+				BBF4C2291B5F8AD800273FDA /* Untitled.gif */,
 				BBDCA81D1B5CDBA2002D879B /* Supporting Files */,
 			);
 			path = PisLoadingView;
@@ -96,6 +119,12 @@
 		BBDCA81D1B5CDBA2002D879B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BBF4C21D1B5F661700273FDA /* image_egg_loading1@2x.png */,
+				BBF4C21E1B5F661700273FDA /* image_egg_loading2_1@2x.png */,
+				BBF4C21F1B5F661700273FDA /* image_egg_loading3@2x.png */,
+				BBF4C2201B5F661700273FDA /* image_egg_loading2@2x.png */,
+				BBF4C2211B5F661700273FDA /* image_egg_loading1_1@2x.png */,
+				BBF4C2271B5F6B0200273FDA /* image_egg_loading_shadow@2x.png */,
 				BBDCA81E1B5CDBA2002D879B /* Info.plist */,
 				BBDCA81F1B5CDBA2002D879B /* main.m */,
 			);
@@ -199,9 +228,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBF4C2231B5F661700273FDA /* image_egg_loading2_1@2x.png in Resources */,
 				BBDCA8291B5CDBA2002D879B /* Main.storyboard in Resources */,
+				BBF4C2251B5F661700273FDA /* image_egg_loading2@2x.png in Resources */,
+				BBF4C2281B5F6B0200273FDA /* image_egg_loading_shadow@2x.png in Resources */,
+				BBF4C22A1B5F8AD800273FDA /* Untitled.gif in Resources */,
+				BBF4C2241B5F661700273FDA /* image_egg_loading3@2x.png in Resources */,
+				BBF4C2221B5F661700273FDA /* image_egg_loading1@2x.png in Resources */,
 				BBDCA82E1B5CDBA2002D879B /* LaunchScreen.xib in Resources */,
 				BBDCA82B1B5CDBA2002D879B /* Images.xcassets in Resources */,
+				BBDCA8471B5CDBE2002D879B /* EggLoadingView.xib in Resources */,
+				BBF4C2261B5F661700273FDA /* image_egg_loading1_1@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +259,7 @@
 				BBDCA8261B5CDBA2002D879B /* ViewController.m in Sources */,
 				BBDCA8231B5CDBA2002D879B /* AppDelegate.m in Sources */,
 				BBDCA8201B5CDBA2002D879B /* main.m in Sources */,
+				BBDCA8461B5CDBE2002D879B /* EggLoadingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +454,7 @@
 				BBDCA83F1B5CDBA2002D879B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBDCA8401B5CDBA2002D879B /* Build configuration list for PBXNativeTarget "PisLoadingViewTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +463,7 @@
 				BBDCA8421B5CDBA2002D879B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
